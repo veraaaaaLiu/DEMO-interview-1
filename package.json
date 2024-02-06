@@ -1,0 +1,22 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://veraaaaaliu.github.io/Demo-interview-1/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy" : "gh-pages -d dist"
+  },
+  "dependencies": {
+    "sass": "^1.69.5",
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "gh-pages": "^6.1.1",
+    "vite": "^5.0.8"
+  }
+}
