@@ -15,7 +15,7 @@ const props = defineProps({
 
 // 用 map 去判斷方向
 const directionMap = {
-    left: '180eg',
+    left: '180deg',
     right: '0deg',
     up: '270deg',
     down: '90deg',
